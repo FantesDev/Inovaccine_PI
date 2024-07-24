@@ -67,3 +67,20 @@ height: 30px;
 background-color: var(--secondary-color);
 border-radius: 5px;
 }
+.vacinas_pendentes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: var(--vacinas-pendentes)
+}
+.card_vacPendente{
+    width: 350px;
+    height: 200;
+    background-color: var(--card-vacPendentes);
+}
+.dados_vacPendentes{
+    background-color: var(--color-text-ligth);
+    border-radius: 15px;
+}
