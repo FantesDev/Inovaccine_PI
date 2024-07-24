@@ -1,0 +1,69 @@
+.parte_superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.cpf {
+    color: gray;
+}
+
+.add_user {
+    //div onde está o icone
+    width: 50px;
+    height: 50px;
+}
+
+.user_add {
+    // icone 
+    color: var(--primary-color);
+}
+
+.ultilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input_pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input{
+    border-radius: 10px;
+    width: 250px;
+    border: none;
+    background-color: var(--background);
+    text-align: center;
+}
+.search-icon{
+    color: var(--color-text-dark);
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.btn_services{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.btn_serviços{
+width: 80px;
+height: 30px;
+background-color: var(--secondary-color);
+border-radius: 5px;
+}
+.btn_carteirinha{
+width: 150px;
+height: 30px;
+background-color: var(--secondary-color);
+border-radius: 5px;
+}

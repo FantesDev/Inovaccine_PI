@@ -1,0 +1,21 @@
+.menuApp{
+    display: flex;
+    background-color: var(--primary-color);
+    height: 50px;
+    position: fixed; /* Faz o menu ficar fixo na tela */
+    bottom: 0; /* Alinha o menu à parte inferior da tela */
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home_icon,.denuncia_icon,.seringa_icon,.user_icon{
+    color: var(--color-icon-menu);
+    width: 24px;
+    height: 24px;
+}
